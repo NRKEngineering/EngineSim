@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NRK1000>
+	<EngineStaticParams>
+		<NumCycl>4</NumCycl>
+		<boremm>93.0</boremm>
+		<strokemm>93.0</strokemm>	
+	</EngineStaticParams>
+	<Inputs>
+		<Sensors>
+			<Map>
+				<used>true</used>		
+			</Map>
+			<O2>
+				<used>true</used>
+			</O2>
+			<WaterTemp>
+				<used>true</used>
+			</WaterTemp>
+			<AirTemp>
+				<used>true</used>
+			</AirTemp>
+			<TPS>
+				<used>true</used>
+			</TPS>
+		</Sensors>
+	</Inputs>
+	<Outputs>	
+		<Fuel>
+			<Injectors>
+				<used>true</used>
+				<flowrate>500</flowrate>	<!-- cc/min -->
+				<deadtime>200</deadtime>	<!-- millisec -->
+				<ohms>16</ohms>			
+				<numInjectors>04</numInjectors>
+				<staged>false</staged>
+			</Injectors>
+			<controlAlg>
+				<algType>0</algType> <!-- 0 = Speed Denisty etc -->
+			</controlAlg>
+		</Fuel>
+		<Idle>
+			<used>true</used>
+		</Idle>
+		<Ignition>
+			<used>true</used>
+			<sparkmode>0x00</sparkmode>
+			<numcoils>4</numcoils>
+			<cop>true</cop>
+		</Ignition>
+	</Outputs>
+</NRK1000>

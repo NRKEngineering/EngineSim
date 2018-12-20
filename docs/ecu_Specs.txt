@@ -1,0 +1,10 @@
+
+Hardware
+MPU architecture
+ - ARM Cotrex-R
+
+Development board
+ - 
+
+Software
+ - C/C++

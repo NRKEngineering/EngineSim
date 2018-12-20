@@ -1,0 +1,38 @@
+
+Start
+- Setup
+	- Get ignition type
+	- Get number of cylinders
+	- Get Injector details
+		- Dwell
+		- Ohm
+		-
+	- Get Fuel tables
+	- Get Ignition Tables
+loop
+- Read inputs
+	- Read Air temp
+	- Read Water Temp
+	- Read Air/fuel
+	- Read MAP
+	- Read User Input
+	- Calculate RPM
+- Calculate fuel
+	- 
+- Calculate spark
+	- 
+- Send outputs
+	- 
+
+Shutdown
+
+
+
+Threads
+
+- Get Sensors
+- Get/Calc Fuel
+- Get Crank
+- Get Cam
+- Get/Cal Ignition
+

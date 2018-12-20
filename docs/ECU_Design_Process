@@ -1,0 +1,171 @@
+------ Design Phases ------------------------------------------------------------------------------
+
+- Requiements of design
+	- Construct the "Product Requirements Document",
+	- List of important requirements that cant be obmitted,
+	
+- System Specifications
+	- Requested behaviours of the system are described,
+
+- Functional Design
+	- Defines which subprocesses and sud systems are necessary in the system
+
+- Detailed Design
+	-Concrete structure of all modules of which the system must be made,
+
+- Implementation
+	- Building and testing prototypes of the system,
+
+
+
+What Can Go Wrong?
+
+Hostile Enviroments
+	- Every possible factor that can prevent a system from perforing it function,
+
+Failure Modes
+	- The manner in which a system fails,
+
+
+
+------ Requiements of Design ----------------------------------------------------------------------
+
+	---- Inputs ----
+	
+	- Read variety of inputs:
+		- 0-5V analog,
+		- 5V digital,
+		- Wide band support/Embeded if possible,
+		- Allow custom calibrations,
+		- Vehicle speed sensing,
+		- Gear sensing,
+
+	- Internal MAP sensor
+		- 2 or 3 bar
+		- Possibility to be interchangable,
+
+	- Knock Control
+		- Dual & single,
+		- 
+
+	- Flex fuel
+		- 
+
+	- Be able to use any ignition control used my vehicle manufacturers
+		-
+
+	- Read and interperate the rotational speed of a crank shaft and cam shaft,
+		- Able to control most common ignition systems (COP, single/multi coil),
+		- Sequential and wasted spark operation,
+		- Individual cyclinder trim,
+		- Automotic detection of crank input type (e.g. 36+1 tooth),
+		- 
+
+	---- Outputs ----
+
+	- Produce a variety of outputs
+		- 0-5V analog,
+		- 5V digital,
+		- PWM,
+		- Tacho,
+
+	- Calculate amount of fuel needed for given engine cycle and parameters
+		- Full sequntial operation,
+		- Control 1-12 injectors,
+		- Individual cyclinder trim,
+		- Tune by gear or any other input,
+		- Short and long term learning,
+		- multi fuel support,
+		- Open/closed loop control,
+		- 
+	
+	- Detailed calcuations of engine parameters
+		-
+
+
+
+	- Drive by Wire
+		- 
+
+
+
+	- Turbo boost control
+		- By gear,
+		- Possible torque control,
+		- Open/closed loop,
+
+	- Nitrous control
+		- Progressive,
+
+	- Fan control
+		- 
+
+	- Have fault detection of systems
+		- engine protection,
+
+	- OBDII capable
+		- 
+	
+	- Shift light control
+		- 
+
+	- Launch control
+		- 
+
+	- Anti lag
+		- 
+
+	- Variable Cam shaft control
+		-
+
+	- Idle control
+		- Closed/open loop,
+		- 
+
+	- Stepper motor control
+
+	
+	- Datalogging
+		- Onboard and removable memory,
+		- as many channels as possible (min 40),
+
+	---- Communications ----
+
+	- Connection to PC
+		- TCP/IP prefered,
+		- Serial/USB,
+
+	- CAN communication
+		- 
+
+	---- Hardware ----
+
+	- Case
+		- Waterproof,
+		- dust proof,
+		- check for IP67,
+		- Shock proof,
+
+	- PCB
+		- Unique design
+		- small as possible,
+
+	- Processor
+		- ARM 64 bit if possible,
+		- Cortex-r,
+		- RTOS,
+
+	---- Software ----
+	
+	- Firmware
+		- Upgradable,
+		- using c++14,
+		- 
+
+	- Tunning Software
+		- Easy to use interface,
+		- Use on PC/Mac/Linux,
+		- Touch screen compatable,
+		- Use with mobile devices,
+		- Auto tunning,
+
